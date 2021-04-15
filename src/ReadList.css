@@ -1,0 +1,52 @@
+div {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+button {
+    border: 1px solid lightgray;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 4px;   
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline:0;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Book {
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 4%;
+    margin: 3%;
+    width: auto;
+}
+
+.Book h2 {
+    font-size: 2em;
+}
+.Book p {
+    font-size: 1.2em;
+    padding: 0;
+}
+
+.Book .status {
+    background-color: #00b894;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
